@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- Start Clock -->
+    <div class="container my-5">
+        <div class="row  justify-content-center">
+            <div class="col-md-6 text-center">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Clock</h2>
+                </div>
+                <div class="card-body">
+                    <div id="box">
+                        <h1 class="h"></h1>
+                        <h1 class="m"></h1>
+                        <h1 class="s"></h1>
+                        <h1 class="ms"></h1>
+                       
+                    </div>
+                    <div class="prbar">
+                        <div class="circle" id="pbcircle"></div>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+<!-- End  Clock -->
+
+<!-- Start Counter Loader -->
+    <div class="container my-3">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card shadow">
+                    <div class="card-header text-center">
+                        <h3>Counter Loader</h3>
+                    </div>
+                    <div class="card-body">
+                        <input type="button" class="btn btn-info" id="start" value="Start">
+                        <input type="button" class="btn btn-warning" id="stop" value="Stop">
+                        <input type="button" class="btn btn-danger" id="reset" value="Reset">
+                        <input type="text" id="userinput" class="form-control my-4">
+                        <div id="counter_result"><h3></h3></div>
+                        <div class="progressbar" id="progressbar">
+                            <div class="counterProgress" id="counterProgress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- End Counter Loader -->   
+
+    <!-- Start Todo List -->
+    <div class="container my-3">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card shadow">
+                    <div class="card-header text-center">
+                        <h3>ToDo List</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="input-group my-3">
+                            <input type="text" class="form-control" id="userData"> 
+                            <button class="btn btn-primary" id="add">Add</button>
+                        </div>
+                        <ul class="list-group listGroupText">
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Todo List -->
+    <script src="assets/js/clock.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/tode.js"></script>
+    <!-- <script src="assets/js/try.js"></script> -->
+    
+    
+</body>
+</html>
